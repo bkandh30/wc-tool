@@ -1,1 +1,1 @@
-# wc-tool
+# WC-Tool
