@@ -8,23 +8,24 @@ This is a simple implementation of Unix command line tool wc written in Python.
 
 It takes an input file and generates an output based on the chosen option.
 
-There are five options supported:
+There are four options supported:
 
-generic: without an option, outputs the number of lines, words and bytes in a file.
--c: outputs the number of bytes in a file.
--l: outputs the number of lines in a file.
--w: outputs the number of words in a file.
--m: outputs the number of chars in a file.
+- `-c`: displays the number of bytes in a file.
+- `l`: displays the number of lines in a file.
+- `w`: displays the number of words in a file.
+- `m`: displays the number of chars in a file.
+
+If no option is provided, it displays
 
 ## Dependencies
 
-Python,
+Python, Click, Sys
 
 ## Usage
 
 The tool tries to follow wc syntax, the usage is as follows:
 
-`python3 main.py ccwc [option] filename`
+`python main.py [option] filename`
 
 ## License
 
