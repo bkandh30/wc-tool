@@ -11,11 +11,11 @@ It takes an input file and generates an output based on the chosen option.
 There are four options supported:
 
 - `-c`: displays the number of bytes in a file.
-- `l`: displays the number of lines in a file.
-- `w`: displays the number of words in a file.
-- `m`: displays the number of chars in a file.
+- `-l`: displays the number of lines in a file.
+- `-w`: displays the number of words in a file.
+- `-m`: displays the number of chars in a file.
 
-If no option is provided, it displays
+If no option is provided, it displays all the data: number of bytes, lines, words and chars.
 
 ## Dependencies
 
